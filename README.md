@@ -1,6 +1,7 @@
 # Sistema de Gestión inmobiliaria
 
-#### Este proyecto es un sistema de gestión desarrollado en Java para una inmobiliaria, diseñado para gestionar propiedades, clientes, transacciones y otros aspectos relacionados con la operación de una inmobiliaria.
+#### Este proyecto es un trabajo práctico de la materia Programación Avanzada, desarrollado por los alumnos Agustín Agüero, Daniel Fernández y Tomás Roma. Es un sistema de gestión diseñado para una inmobiliaria, enfocado en la administración de propiedades, clientes, transacciones y aspectos operativos relacionados.
+
 
 ### Funcionalidades
 
