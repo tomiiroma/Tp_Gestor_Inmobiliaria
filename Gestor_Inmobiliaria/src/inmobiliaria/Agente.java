@@ -1,6 +1,6 @@
 package inmobiliaria;
 
-import java.time.LocalDate; 
+import java.time.LocalDate;  
 import java.util.Iterator;
 import java.util.LinkedList;
 import javax.swing.JOptionPane;

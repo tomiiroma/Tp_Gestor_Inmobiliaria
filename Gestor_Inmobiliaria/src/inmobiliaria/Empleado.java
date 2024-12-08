@@ -24,8 +24,6 @@ import controlador.InquilinoControlador;
 import controlador.CompradorControlador;
 import controlador.VentaControlador;
 
-
-
 public class Empleado implements InicioSesion,Validacion{
 
 	private int id_empleado;
@@ -763,9 +761,12 @@ public class Empleado implements InicioSesion,Validacion{
 			}	
 		
 			String[] opcionesInmuebles = new String[inmuebleControlador.getAllInmueble().size()];
+			
 			for (int i = 0; i < opcionesInmuebles.length; i++) {
 			Inmueble inmueble = inmuebleControlador.getAllInmueble().get(i);
-			opcionesInmuebles[i] = "ID Inmueble: " + inmueble.getId_inmueble() + " - Dirección: " + inmueble.getDireccion()+ " - Ambientes: " +inmueble.getCantAmbientes();					
+			opcionesInmuebles[i] = "ID Inmueble: " + inmueble.getId_inmueble() 
+								+ " - Dirección: " + inmueble.getDireccion()
+								+ " - Ambientes: " +inmueble.getCantAmbientes();					
 			}
 					
 			opcionesInmuebles[opcionesInmuebles.length - 1] = "Volver";
@@ -782,7 +783,9 @@ public class Empleado implements InicioSesion,Validacion{
 			if(inmuebleSeleccionado !=null){
 				Inmueble inmuebleAmostrar = null;
 			for (Inmueble inmueble : inmuebleControlador.getAllInmueble()) {
-			String opcion = "ID Inmueble: " + inmueble.getId_inmueble() + " - Dirección: " + inmueble.getDireccion()+ " - Ambientes: " +inmueble.getCantAmbientes();
+			String opcion = "ID Inmueble: " + inmueble.getId_inmueble() 
+						+ " - Dirección: " + inmueble.getDireccion()
+						+ " - Ambientes: " +inmueble.getCantAmbientes();
 							
 			if(opcion.equals(inmuebleSeleccionado)){
 				inmuebleAmostrar=inmueble;

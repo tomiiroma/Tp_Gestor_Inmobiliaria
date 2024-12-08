@@ -1,6 +1,6 @@
 package inmobiliaria;
 
-import java.util.List;
+import java.util.List; 
 
 import javax.swing.JOptionPane;
 
@@ -18,8 +18,6 @@ class Main{
 
 		JOptionPane.showMessageDialog(null, "Bienvenido al Sistema de Gestión ", "Inmobiliaria Maguez",
 				JOptionPane.INFORMATION_MESSAGE);
-		
-		
 		
 		int respuestaSeleccionada;
 
